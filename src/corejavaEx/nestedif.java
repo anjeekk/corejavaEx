@@ -1,0 +1,28 @@
+package corejavaEx;
+
+public class nestedif {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n=7;
+		if(n%2==0)
+		{
+			if(n%2!=0) {
+				System.out.println("the given number is odd");
+			}
+			else
+			{
+			
+			
+			System.out.println("the given numer is even");
+			}
+		}
+			else
+			{
+			System.out.println("the given number is odd");	
+			}
+		}
+	}
+
+
